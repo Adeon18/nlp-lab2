@@ -29,5 +29,10 @@ Result: 0.69
 
 All the code for them is in the ipynb and csvs are in the repo.
 
+## What I also tried
+- ensembling: did not work and was training too long with hallucinations of fear everywhere.
+- more rules: bad for average f1 score because I had more fear and sadness.
+- teacher geenrating more labels from test set: The model performance was just not that good to proceed on that.
+
 ## Conclusion
 LORA is cool and saved the day. Also feeding some data points like category to predict other like emotion also helped. I had fun:) And as of writing this readme, I am top 3! I hope it stays this way.
